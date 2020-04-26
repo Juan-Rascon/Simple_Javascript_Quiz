@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body >
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-2 my-sm-5">
+               <a href=#><span id = "high_scores">High Scores</span></a>
+              </div>
+              <div class="col-sm-8 my-sm-5">
+              </div>
+              <div class="col-sm-2 my-sm-5">
+                Time: <span id="timer">0</span>
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 my-sm-5"></div>
+            <div class="col-sm-8 my-sm-5">
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title text-center" id="card-title">Coding Quiz Challenge</h5>
+                    <p class="card-text text-center" id = "quiz-question">You have 1 minute to answer as many questions as possible. If you choose an incorrect answer, there will be a 10 second penalty subtracted from your time.</p>
+                    <ul class="text-center" id = "quiz-choices">
+                        <button class="btn btn-primary my-2" id="start-button">Start Quiz</button>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 my-sm-5"></div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-sm-2 my-sm-5"></div>
+            <div class="col-sm-8 my-sm-5" id="result"></div>
+            <div class="col-sm-2 my-sm-5"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
